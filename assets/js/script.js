@@ -32,7 +32,7 @@ function playTheGame(playerComputer, playerYou) {
   // Primero, evaluar empate
   if (playerComputer == playerYou) {
     remainingGames--; // Si empate, entonces no avanza el contador y se repite.
-    alert(`Empate!! (No cuenta, repitamos esta jugada).\n
+    alert(`Empate!! (No cuenta, repetimos esta jugada).\n
     Juegos restantes: ${numberOfGames - 1 - remainingGames}\n
     Resultado parcial: \nComputador = ${playerComputerCount} | Tú = ${playerYouCount}.`);
     console.log(
